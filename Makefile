@@ -1,4 +1,4 @@
-PREFIX  := /usr/local
+PREFIX  := $(HOME)
 CC      := cc
 CFLAGS  := -pedantic -Wall -Wno-deprecated-declarations -Os
 LDFLAGS := -lX11
